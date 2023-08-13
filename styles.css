@@ -1,46 +1,54 @@
-/* Reset de estilos para garantir consistência entre navegadores */
-* {
+/* Reset some default browser styles */
+body, h1, ul, li {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-/* Estilos gerais */
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f8f8f8;
+  background-color: #f5f5f5;
 }
 
 header {
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 1rem 0;
 }
 
 nav ul {
   list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
 }
 
-nav li {
-  margin: 0 15px;
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
 }
 
-nav a {
+nav ul li a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  transition: color 0.3s ease;
+  transition: color 0.3s;
 }
 
-nav a:hover {
-  color: #e91e63;
+nav ul li a:hover {
+  color: #ff8000;
+}
+
+.social-links {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
 }
 
 footer {
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  padding: 20px;
-  color: #888;
+  padding: 1rem 0;
 }
