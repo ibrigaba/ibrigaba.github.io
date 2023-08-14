@@ -1,54 +1,94 @@
-/* Reset some default browser styles */
-body, h1, ul, li {
+body {
+  background-color: #6A9242;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+  font-weight: bold;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.nav {
+  float: right;
+  margin-top: 20px;
+}
+
+.nav ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-}
-
-header {
-  background-color: #333;
-  color: green;
-  text-align: center;
-  padding: 1rem 0;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav ul li {
+.nav li {
   display: inline-block;
   margin-right: 20px;
 }
 
-nav ul li a {
+.nav a {
+  color: #6A9242;
   text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  transition: color 0.3s;
 }
 
-nav ul li a:hover {
-  color: #ff8000;
+.nav a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
-.social-links {
+.main {
+  padding: 20px;
+}
+
+.main p {
+  margin: 0 0 10px;
+}
+
+.footer {
+  background-color: #fff;
+  padding: 20px;
   text-align: center;
-  margin: 2rem 0;
 }
 
-.social-links a {
+.footer p {
+  margin: 0;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media a {
   display: inline-block;
-  margin: 0 10px;
+  margin-right: 10px;
 }
 
-footer {
-  background-color: #333;
-  color: green;
-  text-align: center;
-  padding: 1rem 0;
+.social-media a img {
+  width: 32px;
+  height: 32px;
 }
