@@ -1,12 +1,15 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	color: #000;
+	text-align: center;
 }
 
 nav {
     background-color: #6A9242;
     padding: 10px;
+	alignment-adjust: center;
 }
 
 ul {
@@ -28,5 +31,5 @@ a {
 }
 
 a:hover {
-    color: #D9E492;
+	color: #099;
 }
